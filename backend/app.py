@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/health')
 def health():
+<<<<<<< HEAD
     return jsonify({"status": "SYSTEM HEALTH OK"})
+=======
+    return jsonify({"status": "ALL SYSTEMS GO"})
+>>>>>>> 6eb9912 (Updated health message in conflict branch)
 
 @app.route('/metrics')
 def metrics():
